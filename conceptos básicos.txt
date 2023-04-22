@@ -1,0 +1,44 @@
+"4" + 2
+4 + "2"
+4 + 2
+
+10 % 2
+9 % 2
+
+2 ** 4
+
+!23
+!false
+
+5 == '5'
+5 === '5'
+
+//Nullish coalesing operator, si es null o undefined el lado izquierdo, me retorna el lado derecho, 
+//sino me retorna el izquierdo
+false ?? true
+null ?? true
+
+typeof 23
+typeof "Renzo"
+typeof true
+typeof {name: "Renzo"}
+typeof undefined
+typeof null
+typeof []
+
+// variables
+var name = "Renzo"
+let name2 ="Arturito"
+name = 9
+name 
+//Constante no se puede cambiar con el correr del programa
+const name4 = {name: "Juan carlos"}
+name4
+name4.name = "Pepe"
+name4
+
+const friends = ["Camilo", "Diego"]
+const bla = 9
+console.log(typeof bla)
+console.log(friends.length)
+console.log(friends[1])
