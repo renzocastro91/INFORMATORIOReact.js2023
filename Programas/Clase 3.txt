@@ -174,3 +174,10 @@ Realmente pasa::
 Loose equality == (Permite la coersion) --> 5 == "5" --> True 
 Strict equality === (No permite la coersion) --> 5 === "5" --> False 
 
+
+1) Escribir una función llamada contarVocales que reciba una cadena de texto como argumento y devuelva el número de vocales en la cadena. Puedes utilizar el método split() para convertir la cadena en un array de caracteres y luego recorrer el array utilizando un bucle for...of. Recuerden que operador usabamos para validar que el argumento sea una cadena antes de procesarlo en la función.
+2) Escribir una función llamada encontrarNumero que reciba un array de números y un número objetivo como argumentos, y devuelva true si el número objetivo se encuentra en el array, o false en caso contrario. Recuerden que bucle usabamos para recorrer el array
+3) Escribir una función llamada numerosPares que reciba un array de números como argumento y devuelva un nuevo array con sólo los números pares del array original. Si el argumento no es un array o si no hay números pares en el array, la función debe devolver un mensaje de error. 
+4) Escribir una función llamada esIgual que reciba dos argumentos y devuelva un booleano indicando si son iguales. Piensen que operador de igualdad les conviene usar (== o ===) teniendo en cuenta la coerción de tipos.
+5) Escribir una función llamada convertirNumero que reciba un argumento y devuelva ese argumento convertido a número. Si no es posible convertir el argumento a número, la función debe devolver un mensaje de error.
+6) Escribir una función llamada compararTipos que reciba dos argumentos y devuelva un booleano indicando si son del mismo tipo. Una ayuda: La función debe utilizar el operador typeof para determinar el tipo de datos de los argumentos, y piensen que tipo de operador de igualdad les conviene usar (== o ===)
