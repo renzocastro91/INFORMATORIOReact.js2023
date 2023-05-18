@@ -1,11 +1,52 @@
-.titulo {
-    color: blueviolet;
-}
+.container {
+    background-color: gold;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    margin-bottom: 16px;
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: 50px black;
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  
+  .species {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e60000;
+  }
 
-#app {
+  .red {
     color: red;
-}
+  }
 
-.name {
+  .titulo {
     color: black;
-}
+  }
+  
