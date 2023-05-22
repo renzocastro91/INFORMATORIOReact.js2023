@@ -1,12 +1,12 @@
 /* Estilos para el tema oscuro */
 body {
-  background-color: #333;
+  background-color: #f5f5f5;
   color: #fff;
   font-family: Arial, sans-serif;
 }
 
 .container {
-  background-color: #444;
+  background-color: #c4c4c4;
   width: 300px;
   margin: 0 auto;
   padding: 20px;
@@ -53,4 +53,21 @@ button.specialButton {
 
 button.specialButton:hover {
   background-color:#777;
+}
+
+.modo-oscuro {
+  background-color: #646464;
+  color: #fff;
+  /* Otros estilos para el modo oscuro */
+}
+
+body.modo-oscuro {
+  background-color: #020202;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.switchThemeBtn {
+  display: inline-block;
+  text-align: center;
 }
